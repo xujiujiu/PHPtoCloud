@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="by九酒"  />
+<meta name="revised" content="2015/11/20" />
+<meta name="keywords" content="云空间文件管理"  />
+<META NAME="Description" CONTENT="云空间文件管理" />
+<title>云空间文件管理-用户登录</title>
+</head>
+<link href="../css/login.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../js/check_data.js"></script>
+<script src="../js/send.js" language="javascript" type="text/javascript"></script>
+<body>
+<!--背景设置-->
+<div class="bg" >
+	<img src="../images/top.jpg" width="100%"  />
+</div>
+<div class="cont">
+  <p><span>云空间</span>文件管理</p>
+</div>
+<!--登陆框设置-->
+<div id="Login" >
+	<div id="Header">
+        	<p class="t">登陆云空间账号
+            	<a class="gl" href="../admin/user_login.htm">管理员登陆入口&lt;&lt;</a>
+            </p>  
+    </div>
+    <div id="Center">
+        <div id="loginInput">
+        <form name="login"  method="post" action="../login/login.php" onsubmit="return CheckIndex();">
+        	<p class="loginInput">
+            	<img class="icon" src="../images/icon1.png" width="30" height="30" />
+       	    	<input id="rem_name" name="rem_name" type="text" placeholder="账号名输入" >
+            </p>
+        	<p class="loginInput password"><img class="icon" src="../images/icon2.png" width="30" height="30" />
+       	    <input id="rem_password" name="rem_password" type="password"  placeholder="密码输入" ></p>
+            <p class="loginBnt"><input id="submit" name="submit" type="submit" value="登录" ></p>
+         </form>
+        </div>
+        <div class="otherBnt">
+        	<p class="t">还没有云空间账号？</p>
+            <p class="loginBnt"><input id="submit" type="button" value="注册" onclick="location.href='../login/regidter.htm'" ></p>
+        </div>
+       
+    </div>
+</div>  
+<!--版权设置-->
+<div align="center" class="c">byjiujiu&copy;2015版权所有  </div>
+<body>
+</body>
+</html>

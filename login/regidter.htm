@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="by九酒"  />
+<meta name="revised" content="2015/10/20" />
+<meta name="keywords" content="文件管理系统"  />
+<META NAME="Description" CONTENT="文件管理系统" />
+<title>云空间-注册账号</title>
+</head>
+<link href="../css/regidter.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../js/check_data.js"></script>
+<script src="../js/send.js" language="javascript" type="text/javascript"></script>
+<body>
+<!--页头设置-->
+<div class="bg">
+  <img src="../images/top_1.png" style="width:100%" />
+</div>
+<ul class="logo">
+ 	<li><img src="../images/logo.png"  style="height:100px;"/></li>
+    <li class="title"><span>|</span>注册云空间账号</li>
+<li id="dl">
+	    我已有账号，现在就&nbsp;<input class="dl" type="button" value="登陆"  onclick="location.href='login.htm'"/>
+    </li>
+</ul>
+<!--注册设置-->
+<form  name="send" method="post"  action="regidter.php" onsubmit="return Check()"><!--动态设计-->
+
+ <table class="rem" width="100%" align="center" cellpadding="5" border="0">
+  <tr>
+    <td class="left">用户名：</td>
+    <td>
+      <input class="rem_name" type="text" name="rem_id"  placeholder="请输入账号"   />
+      <font color="#FF0000">*</font><span class="warn">&nbsp;必须大于4字符，小于20字符</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="left">密码：</td>
+    <td>
+    	<input  class="rem_password" type="password" name="rem_password" placeholder="输入密码"  />
+        <font color="#FF0000">*</font><span class="warn">&nbsp;必须大于6字符，小于20字符</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="left">确认密码：</td>
+    <td>
+      <input class="rem_cpassword" type="password" name="rem_cpassword" placeholder="请再次输入密码"  />
+      <font color="#FF0000">*</font>
+    </td>
+  </tr>
+  <tr>
+    <td class="left">性别：</td>
+    <td>
+      <div class="rem_sex">
+     	    <input  type="radio" name="sex" value="男" checked />男
+     	    <input  type="radio" name="sex" value="女"  />女
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="left">Email：</td>
+    <td>
+      <input class="rem_email" type="text" name="rem_email"  placeholder="请输入邮箱"/>
+    </td>
+  </tr>
+ </table>
+ <div class="read">
+     <input name="" type="checkbox" required="required" value="" checked="checked" />
+     阅读并接受<a href="../conn/xy.php" target="_blank">《云空间协议》</a>
+ </div>
+ <div class="botton">
+    	<input class="reset" name="reset" type="reset"  value="重置" />
+        <input class="submit" name="submit" type="submit"  value="注册" />
+ </div>
+</form>
+</body>
+</html>

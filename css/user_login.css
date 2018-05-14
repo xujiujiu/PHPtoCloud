@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0}
+a{text-decoration:none;}
+	
+.cont > p{ text-align:center;
+           font-family: "华文楷体";
+   		   font-size:40px;
+   	 	   color:#FFF;
+	     }
+span{ text-align:center;
+	  font-family: "幼圆";
+	  font-size:48px;
+	  font-weight:bold;
+	  color:#0FF;
+ 	  }
+.bg{ position:absolute; 
+	 width:100%; 
+	 height:800px;
+     z-index:-1;
+	}
+.cont{
+	position: relative;
+	width:500px;;
+	margin: 0 auto;
+	top:80px;
+	}
+/*.login{
+	position: relative;
+	width: 300px;;
+	height: 400px;
+	margin: 0 auto;
+	top:200px;
+	
+	}*/
+	
+	/*账号登陆样式*/
+	#Login{
+		margin-top:150px;
+		background: none rgba(0, 0, 0, 0.4);
+		box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.4);
+		-webkit-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.4);
+		-o-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.4);
+		-ms-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.4);
+		position:absolute;
+		width:390px;
+		height:250px;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		margin-left:50%;
+		left:-195px;
+		z-index:1;
+	}
+	#Header{
+		position:relative;
+		height:40px;
+		border-bottom:#DDD solid 1px;
+	}
+	 .t{	color:#c1c1c1;
+		font-size:18px; 
+		margin-left:48px; 
+		font-family:"微软雅黑";	
+		height:30px;
+		margin-top:10px;
+	}
+
+	.loginInput{
+		width:340px;
+		height:40px;
+		border:#CCC solid 1px;
+		margin-top:15px;
+		margin-bottom:15px;
+		margin-left:25px;
+	}
+	.loginInput > input{ 
+		border:none; 
+		vertical-align:middle;/*垂直居中*/
+		margin-top:3px;
+		height:34px;
+		font-size:16px;
+		color:#fff;
+		width:85%;
+		background:transparent;
+	}
+	.icon{
+		vertical-align:middle;
+		}
+	.loginBnt input{ 
+	    margin-left:25px;
+		height: 50px;
+		width: 340px;
+		border:none;
+		background:#3f89ec;
+		color:#FFF;
+		font-size:16px;
+		font-family:"微软雅黑";
+		text-align:center;
+		border-radius:5px;
+	}
+.loginBnt input:hover{ 
+         background:#4491ff;
+		 cursor:pointer;
+    } 
+.otherBnt{
+	margin-top: 10px;
+	border-top: #DDD solid 1px;
+	}
+.c{ 
+    position: relative;
+	color:#fff;
+	margin-top:600px;
+	font-size: 14px;
+	font-family: "楷体_GB2312";
+	font-weight: bold;
+	}

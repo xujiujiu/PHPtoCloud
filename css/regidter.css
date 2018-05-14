@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{margin:0; padding:0}
+a{text-decoration:none;
+  color:#06F;
+}
+ul li{
+	list-style:none;
+	float:left;
+	}
+/*body{
+	background-color:#DCF3F9;
+	}*/
+.bg{
+	position:absolute;
+}
+.logo{
+	position: relative;
+	height :12%;
+	vertical-align:middle;
+	margin-left:30px;
+}
+.title{
+	margin-bottom:50px;
+	font-family: "幼圆";
+	font-size:24px;
+	color:#fff;
+	font-weight:bold;
+	margin-top:60px;
+	}
+.title > span{
+	font-size:33px;
+	}
+#dl{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#fff;
+	margin-top:15px;
+	float:right;
+	margin-right:30px;
+	}
+#dl .dl{
+	width:50px;
+	height:30px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	font-weight:bold;
+	background:#eee;
+	border: solid 1px #999;
+	text-align:center;
+	border-radius:3px;
+	}
+#dl .dl:hover{
+	cursor:pointer;
+	}
+/*注册表单设计*/
+form{
+	position: absolute;
+	margin-top:150px;
+	margin-left:20%;
+	
+	}
+.rem{
+	font-family:"仿宋";
+	font-size:24px;
+    color:#222;
+	}
+.warn{
+	font-family:"仿宋";
+	font-size:18px;
+	color:#555;
+	}
+tr{
+	height:50px;
+	}
+.rem input{
+	    width:200px;
+	    border:none;
+		border: solid 1px #999999;
+		height:34px;
+		border-radius:3px;
+	}
+.left{
+	float:right;
+	padding-right:20px;
+	padding-top:10px;
+	}
+.rem_sex input{
+		width:10px;
+	}
+.read{
+	padding-top:10px;
+	padding-left:60px;
+	height:40px;
+	font-size:14px;
+	}
+.botton input{ 
+    font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	width:100px;
+	height:40px;
+	margin-left:60px;
+	border:none;
+	border-radius:3px;
+	background:#3f89ec;
+	}
+.botton input:hover{
+	background:#4491ff;
+    cursor:pointer;
+	}/* CSS Document */

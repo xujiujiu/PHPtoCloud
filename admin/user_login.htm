@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="by九酒"  />
+<meta name="revised" content="2015/10/20" />
+<meta name="keywords" content="云空间文件管理系统"  />
+<META NAME="Description" CONTENT="文件管理系统后台" />
+<title>云空间-文件管理系统后台-管理员登录</title>
+</head>
+<link href="../css/user_login.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../js/check_data.js"></script>
+<script src="../js/send.js" language="javascript" type="text/javascript"></script>
+<body>
+<!--背景设置-->
+<div class="bg" >
+	<img src="../images/top.jpg" width="100%"  />
+</div>
+<div class="cont">
+  <p><span>云空间</span>文件管理系统后台</p>
+</div>
+<!--登陆框设置-->
+<div id="Login" >
+	<div id="Header">
+        	<p class="t">登陆云空间系统后台</p>  
+    </div>
+    <div id="Center">
+        <div id="loginInput">
+        <form name="login"  method="post" action="user_login.php" onsubmit="return CheckUser();">
+        	<p class="loginInput"><img class="icon" src="../images/icon1.png" width="30" height="30" />
+       	    <input id="user_name" name="user_name" type="text" placeholder="账号名输入" ></p>
+        	<p class="loginInput password"><img class="icon" src="../images/icon2.png" width="30" height="30" />
+       	    <input id="user_password" name="user_password" type="password"  placeholder="密码输入" ></p>
+            <p class="loginBnt"><input id="submit" name="submit" type="submit" value="登录" ></p>
+         </form>
+        </div>
+        <!--<div class="otherBnt">
+        	<p class="t">还没有云空间账号？</p>
+            <p class="loginBnt"><input id="submit" type="button" value="注册" onclick="location.href='regidter.htm'" ></p>
+        </div>-->
+    </div>
+</div>  
+<!--版权设置-->
+<!--<div align="center" class="c">byjiujiu&copy;2015版权所有  </div>-->
+</body>
+</html>

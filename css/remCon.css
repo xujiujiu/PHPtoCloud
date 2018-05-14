@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;padding:0;
+}
+ul{
+	float:left;
+}
+ul li{
+	font-family:'楷体';
+	font-size:24px;
+	list-style:none;
+	margin:10px 0 0 10px;
+	text-align:center;
+}
+#rem{
+	margin:20px 0 0 20px;
+}
+.name{
+	margin-bottom:10px;
+	font-family:'楷体';
+	font-size:36px;
+	color:#06C;
+}
+.personal div{
+	float:left;
+}
+.infShow{
+	z-index:0;
+	display:block;
+	height:30px;
+	line-height:30px;
+}
+.edit{
+	z-index:1;
+	display:none;
+}
+.edit .text{
+	height:24px;
+	font-size:16px;
+}
+
+.file .tb{
+	margin-left:20px;
+	margin-top:50px;
+	width:200px;
+	height:90px;
+	border:1px #CCCCCC solid;
+	background-color:#FFF;
+}
+.file .img{
+	margin-top:-60px;
+	margin-left:221px;
+}
+.file .share{
+	width:500px;
+	height:450px;
+	margin-left:241px;
+	margin-top:-55px;
+	background-color:#FFF;
+	/*box-shadow:0px 0px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 0px 1px rgba(0,0,0,0.5);
+	-ms-box-shadow:0px 0px 1px rgba(0,0,0,0.5);
+	-o-box-shadow:0px 0px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0px 0px 1px rgba(0,0,0,0.5);*/
+	position:absolute;
+}
+.share .sign{
+	height:30px;
+	margin:15px 0 0 30px;
+	border-bottom:1px #CCCCCC solid;
+	width:440px;
+	position:relative;
+	z-index:1;
+}
+.sign a{
+	text-decoration:none;
+	color:#069;
+	float:left;
+	font-family:'楷体';
+	font-size:18px;
+	margin-top:10px;
+	margin-left:30px;
+}
+.sign .first{
+	background-color:#069;
+	color:#fff;
+}
+.sign a:hover{
+	background-color:#069;
+	color:#fff;
+}
+
+/*推广==================================*/
+.extend{
+	margin:-160px 0 0 70%;
+	border:2px #ccc solid;
+	width:25%;
+	height:570px;
+}

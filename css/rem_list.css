@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	font-family: "宋体";
+	color:#666;
+}
+.search{ 
+	margin:7px 0 7px 0;
+	text-align:center;
+}
+
+#button{
+	width:70px;
+	height:26px;
+	font-weight:500;
+}
+#button:hover{
+	cursor:pointer;
+}
+
+td{
+	text-align:right;
+	font-size:14px;
+	border-left: 2px #3F89EC solid;
+	border-bottom:2px #3F89EC solid;
+}
+.biaoti td{
+	text-align:center;
+	border-left: 2px #2464AD solid;
+}
+td.first{border-left:none;}
+.page{padding:10px 0 10px 0;}
+.textpage{
+	width:30px;
+	height:25px;
+}
+/*修改成员样式*/
+
+.editul{
+	margin-left:40%;
+}
+.editul input{
+	    width:150px;
+	    border:none;
+		border: solid 1px #999999;
+		height:27px;
+		border-radius:3px;
+}
+.editsex input{
+		width:30px;
+	}
+.editul .first{margin:10px 0 10px 0;}
+.editul li{
+	margin-top:5px;
+	padding-top:5px;
+}
+.editsex input{width:50px;}
+.personal_inf input{height:50px;}
+.button input{ 
+	margin:5px 0 20px 35px;
+}
+/*文件样式表*/
+.file_type{ width:110px;}
+/*上传文件样式*/
+.file_up{
+	width:60%;
+	margin:0 auto;
+	margin-top:20px;
+	border:rgba(63,137,236,0.5) 2px solid;
+	margin-bottom:20px;
+	background:-moz-linear-gradient(top,#EBF2F9,#d2e2f3);
+	background: -ms-linear-gradient(top,#EBF2F9,#d2e2f3);
+	background: -o-linear-gradient(top,#EBF2F9,#d2e2f3);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBF2F9), to(#d2e2f3));   /*谷歌, Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top,#EBF2F9,#d2e2f3);   /*Safari5.1 Chrome 10+*/
+}
+.file_up form{
+	padding:20px 0 20px 0;
+	width:70%;
+	text-align:center;
+}
+.file_up p{
+	background:-moz-linear-gradient(top,#72a6eb,#d2e2f3);
+	background: -ms-linear-gradient(top,#72a6eb,#d2e2f3);
+	background: -o-linear-gradient(top,#72a6eb,#d2e2f3);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#72a6eb), to(#d2e2f3));   /*谷歌, Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top,#72a6eb,#d2e2f3);   /*Safari5.1 Chrome 10+*/
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#FFF;
+	text-align:center;
+	border-bottom:rgba(63,137,236,0.5) 2px solid;
+}
+/*.up{
+	width:100px;
+	height:40px;
+}*/
